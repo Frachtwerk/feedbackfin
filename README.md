@@ -1,12 +1,7 @@
-# Feedback Fin
+# Feedback Fin (Frachtwerk Fork)
 
-**A tiny widget to collect feedback anywhere on your website. That’s it.**
-
-<p>
-    <a target="_blank" rel="noopener" href="http://www.feedbackfin.com"><b>Website</b></a> •
-    <a target="_blank" rel="noopener" href="https://discord.gg/fjBugmvzZP"><b>Discord</b></a> • 
-    <a target="_blank" rel="noopener" href="https://twitter.com/rowyio"><b>Twitter</b></a>
-</p>
+**A tiny widget to collect feedback anywhere on your website. That’s it. In
+GERMAN.**
 
 [![npm version](https://badgen.net/npm/v/feedbackfin)](https://www.npmjs.com/package/feedbackfin)
 [![Package size](https://badgen.net/bundlephobia/minzip/feedbackfin)](https://bundlephobia.com/result?p=feedbackfin)
@@ -14,8 +9,6 @@
 <a href="https://feedbackfin.com" target="_blank" rel="noopener">
   <img src="https://user-images.githubusercontent.com/27017118/160980505-edf2c161-730d-4ba1-9ae2-2a0a01454954.gif" width="420" height="380" alt="Demo GIF" />
 </a>
-
-[Try the widget&nbsp;&UpperRightArrow;](https://feedbackfin.com)
 
 ## Quick Start
 
@@ -25,7 +18,9 @@
    <script src="https://unpkg.com/feedbackfin@^1" defer></script>
    ```
 
-2. Setup a [webhook URL](#setting-up-a-webhook-url) (read instructions in the next section) and configure that in the script. Optionally, add any [user info](#user) that you want to pass in from the website:
+2. Setup a [webhook URL](#setting-up-a-webhook-url) (read instructions in the
+   next section) and configure that in the script. Optionally, add any
+   [user info](#user) that you want to pass in from the website:
 
    ```html
    <script>
@@ -45,9 +40,10 @@
 This is the URL to send the feedback to. The widget will make a POST request to
 this URL with the feedback data as a JSON body.
 
-Generate a webhook URL easily using Rowy's low-code platform and manage feedback data on a collaborative spreadsheet-UI. Optionally, you can further automate on incoming feedback with Rowy's built-in code-editor (eg: notify on team slack/discord, email follow up etc).
-
-End-to-end video instructions on the [website&nbsp;&UpperRightArrow;](https://feedbackfin.com/setup)
+Generate a webhook URL easily using Rowy's low-code platform and manage feedback
+data on a collaborative spreadsheet-UI. Optionally, you can further automate on
+incoming feedback with Rowy's built-in code-editor (eg: notify on team
+slack/discord, email follow up etc).
 
 ## Options
 
@@ -159,8 +155,11 @@ this widget inside another element with a focus trap.
 
 ## Contributing
 
-Contribute to Feedback Fin with issues and pull requests in
+Contribute to ORIGINAL Feedback Fin with issues and pull requests in
 [the GitHub repo](https://github.com/rowyio/feedbackfin).
+
+Contribute to GERMAN Feedback Fin with issues and pull requests in
+[the GitHub repo](https://github.com/Frachtwerk/feedbackfin).
 
 ## Support
 

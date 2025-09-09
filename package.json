@@ -1,11 +1,10 @@
 {
-  "name": "feedbackfin",
-  "version": "1.0.3",
+  "name": "fw-feedbackfin",
+  "version": "1.0.0",
   "license": "Apache-2.0",
-  "homepage": "https://feedbackfin.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rowyio/feedbackfin.git"
+    "url": "https://github.com/Frachtwerk/feedbackfin"
   },
   "type": "module",
   "source": "src/index.ts",
