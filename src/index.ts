@@ -86,9 +86,9 @@ function changeType(e: Event) {
   const value = (e.target as HTMLInputElement).value;
 
   let buttons = document.getElementsByClassName("feedbackfin__radio-icon");
-  buttons.item(0)?.setAttribute("class", "feedbackfin__radio-icon agreeIcon");
-  buttons.item(1)?.setAttribute("class", "feedbackfin__radio-icon disagreeIcon");
-  buttons.item(2)?.setAttribute("class", "feedbackfin__radio-icon thinkingCloudIcon");
+  buttons.item(0)?.setAttribute("class", "feedbackfin__radio-icon agreeFeedbackIconSmall");
+  buttons.item(1)?.setAttribute("class", "feedbackfin__radio-icon disagreeFeedbackIconSmall");
+  buttons.item(2)?.setAttribute("class", "feedbackfin__radio-icon cloudFeedbackIconSmall");
 
   containerElement.setAttribute("data-feedback-type", value);
 
